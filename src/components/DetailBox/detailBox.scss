@@ -1,0 +1,77 @@
+.detailBox {
+    margin-top: 62px;
+    width: 275px;
+    height: 220px;
+    background-color: #f5f4f4;
+    margin-left: 25px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    .detailBoxContent {
+      .imgwrp {
+        text-align: center;
+        padding-top: 22px;
+      }
+
+      .txtwrp {
+        text-align: center;
+        padding-top: 10px;
+
+        h3 {
+          font-size: 19px;
+          font-weight: 400;
+          color: #85c371;
+          font-style: italic;
+        }
+      }
+
+      .detailInner {
+        background: #eeeeee;
+        border: 1px solid rgba(0, 0, 0, 0.18);
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        height: 93px;
+        padding-bottom: 9px;
+        width: 275px;
+
+        .txtdiv {
+          text-align: center;
+          margin-top: 12px;
+
+          p {
+            margin: 0;
+            color: #959595;
+            font-size: 17.59px;
+            line-height: 21.11px;
+            letter-spacing: -7%;
+          }
+        }
+
+        .priceAndBtn {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 10.62px 15px 9px 15px;
+
+          .prices {
+            p {
+              margin: 0;
+              font-size: 15.23px;
+              color: #959595;
+            }
+          }
+
+          .btnwrp {
+            button {
+              padding: 10px 30px;
+              background: #44a16f;
+              border-radius: 10px;
+              border: none;
+              color: #fff;
+              cursor: pointer;
+              font-size: 17.59px;
+            }
+          }
+        }
+      }
+    }
+  }

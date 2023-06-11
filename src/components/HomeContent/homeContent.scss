@@ -1,0 +1,92 @@
+.homeContent {
+  background-color: #d9d9d9;
+  width: 100%;
+  height: 1154px;
+
+  .homeContentWrp {
+    padding-top: 75.71px;
+    padding-left: 98px;
+    padding-right: 212px;
+    .headingWrp {
+      h3 {
+        color: #72aa83;
+        font-size: 28.56px;
+        font-weight: 600;
+      }
+    }
+
+    .box {
+      .boxContent {
+        background: #ffffff;
+        border: 1px solid #ffffff;
+        box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
+        width: 1070px;
+
+        padding: 43px 0;
+
+        .progressBar {
+          .progressBarContent {
+            display: flex;
+            align-items: center;
+            margin: 34px 30px 0 12px;
+            border: 1px solid #959595;
+            border-radius: 50px;
+
+            .received {
+              background-color: #fdf307;
+              /* width: 40%; */
+              border-radius: 50px 0px 0px 50px;
+              padding: 16px 23px;
+              width: 317px;
+              border-right: 1px solid #959595;
+
+              span {
+                font-size: 16.93px;
+                color: #959595;
+                line-height: 20px;
+                line-height: -7%;
+              }
+            }
+
+            .negotiating {
+              padding: 16px 80px;
+              border-right: 1px solid #959595;
+
+              span {
+                font-size: 16.93px;
+                color: #959595;
+                line-height: 20px;
+                line-height: -7%;
+              }
+            }
+
+            .completed {
+              // width: 317px;
+              padding: 16px 99px;
+            }
+          }
+        }
+
+        .fullProgressBar {
+          .fullProgressBarContent {
+            margin: 34px 30px 0 12px;
+            border: 1px solid #959595;
+            border-radius: 50px;
+
+            .completed {
+              padding: 13px 0 16px 31px;
+              background-color: #44a16f;
+              border-radius: 50px;
+              span {
+                font-size: 16.1px;
+                color: #fff;
+              }
+            }
+          }
+        }
+
+        
+      }
+    }
+  }
+}

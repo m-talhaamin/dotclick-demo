@@ -1,0 +1,74 @@
+.details {
+    display: flex;
+    align-items: center;
+    padding-left: 39px;
+    .hospitalDetails {
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+      padding-right: 33px;
+
+      h3 {
+        font-size: 29.4px;
+        color: #48af78;
+        font-weight: 700;
+        line-height: 35.28px;
+        margin: 0;
+      }
+      p {
+        font-size: 16.93px;
+        color: #959595;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+
+    .datesDetail {
+      padding: 0 33px;
+      border-right: 1px solid rgba(0, 0, 0, 0.3);
+
+      h3 {
+        font-size: 27.94px;
+        color: #48af78;
+        font-weight: 700;
+        line-height: 33.53px;
+        margin: 0;
+
+        span {
+          font-size: 27.94px;
+          color: #48af78;
+          font-weight: 700;
+          line-height: 33.53px;
+          margin: 0;
+          padding: 0 20px;
+        }
+      }
+
+      span {
+        font-size: 16.93px;
+        color: #959595;
+        font-weight: 500;
+
+        &.startDate {
+          margin: 0 35px 0 0px;
+        }
+      }
+    }
+
+    .roomsDetail {
+      padding-left: 33px;
+
+      h3 {
+        font-size: 27.94px;
+        color: #48af78;
+        font-weight: 700;
+        line-height: 33.53px;
+        margin: 0;
+      }
+
+      p {
+        font-size: 16.93px;
+        color: #959595;
+        font-weight: 500;
+        margin: 0;
+      }
+    }
+  }
